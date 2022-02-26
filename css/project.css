@@ -1,0 +1,216 @@
+.card {
+    cursor: pointer;
+    min-height: 20vh;
+    transition: .5s;
+}
+
+.card .card-body {
+    position: relative;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.card-title {
+    background: rgba(0, 0, 0, 0.527);
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+	top: 100%;
+    left: 0;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.card-title p {
+    margin: 5px 0!important;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    color: #fff;
+}
+
+.card-title h2 {
+    margin: 15px 0!important;
+}
+
+.card:hover .card-title {
+    top: 0%;
+}
+
+.card h2 {
+    font-size: 22px;
+}
+
+.js,.html,.css{
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.js {
+    background: #e74c3c;
+}
+
+.html {
+    background: #3498db;
+}
+
+.css {
+    background: #f39c12;
+}
+
+.allProjectTitle {
+    color: #1abc9c;
+}
+
+.cssBrand {
+    color: #3498db!important;
+}
+
+.htmlBrand {
+    color: #e74c3c;
+}
+
+.jsBrand {
+    color: #f39c12;
+}
+
+.view,.code {
+    margin: 2px 10px 0 0;
+}
+
+.view {
+    color: rgb(255, 81, 0);
+}
+.code {
+    color: rgb(51, 180, 0);
+}
+
+/*------------------------------------------
+            CARD BUTTON EFFECT 
+------------------------------------------*/
+
+
+/* .btn-grad {background-image: linear-gradient(to right, #2E3192 0%, #1BFFFF  51%, #2E3192  100%)} */
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    /* color: white;             */
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    /* background-color: #000; */
+    border: 2px solid #1abc9c;
+    cursor: pointer;
+}
+
+.btn-grad .colorGreen {
+    font-size: 22px;
+}
+
+.btn-grad:hover {
+    /* background-image: linear-gradient(to right, #2E3192 0%, #1BFFFF  51%, #2E3192  100%); */
+    background: #1abc9c;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-grad:hover h5 {
+    color: #fff;
+}
+
+.btn-grad:hover .colorGreen {
+    color: #fff;
+}
+
+/*------------------------------------------
+            CSS PROJECT 
+------------------------------------------*/
+
+.cssProject:nth-of-type(1) .card{
+    background: url(../images/projects/css-norman-meals.jpg) no-repeat center center / cover;
+}
+.cssProject:nth-of-type(2) .card{
+    background: url(../images/projects/lgran.jpg) no-repeat center center / cover;
+}
+.cssProject:nth-of-type(3) .card{
+    background: url(../images/projects/meteorNewspaper.jpg) no-repeat center center / cover;
+}
+
+
+/*------------------------------------------
+            JS PROJECT
+------------------------------------------*/
+
+.vanillaJs:nth-of-type(1) .card {
+    background: url(../images/projects/blood.jpg) no-repeat center center / 100% 100%;
+}
+.vanillaJs:nth-of-type(2) .card {
+    background: url(../images/projects/gradient.jpg) no-repeat center center / 100% 100%;
+}
+.vanillaJs:nth-of-type(3) .card {
+    background: url(../images/projects/calc.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(4) .card {
+    background: url(../images/projects/shoppingCard.jpg) no-repeat center center / 100% 100%;
+}
+.vanillaJs:nth-of-type(5) .card {
+    background: url(../images/projects/bank.jpg) no-repeat center center / 100% 100%;
+}
+.vanillaJs:nth-of-type(6) .card {
+    background: url(../images/projects/pin.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(7) .card {
+    background: url(../images/projects/lyric.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(8) .card {
+    background: url(../images/projects/weather.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(9) .card {
+    background: url(../images/projects/numberConvertor.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(10) .card {
+    background: url(../images/projects/crudProject.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(11) .card {
+    background: url(../images/projects/clock.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(12) .card {
+    background: url(../images/projects/emailValid.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(13) .card {
+    background: url(../images/projects/increment.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(14) .card {
+    background: url(../images/projects/multiTable.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(15) .card {
+    background: url(../images/projects/oddEven.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(16) .card {
+    background: url(../images/projects/todoApp.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(17) .card {
+    background: url(../images/projects/randomColor.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(18) .card {
+    background: url(../images/projects/greatPoint.jpg) no-repeat center center / cover;
+}
+.vanillaJs:nth-of-type(19) .card {
+    background: url(../images/projects/typeingProject.jpg) no-repeat center center / 200% ;
+}
+.vanillaJs:nth-of-type(20) .card {
+    background: url(../images/projects/bookList.jpg) no-repeat center center / cover ;
+}
+.vanillaJs:nth-of-type(21) .card {
+    background: url(../images/projects/calculatorPro.jpg) no-repeat center center / cover ;
+}
