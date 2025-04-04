@@ -126,7 +126,9 @@ h2:hover::before {
 .profile .profileImage {
     width: 100%;
     min-height: 50vh;
-    background: url('../images/myImage.png') no-repeat center center / 100% 100%;
+/*     background: url('../images/myImage.png') no-repeat center center / 100% 100%; */
+	
+    background: url('../images/AsaduzzamanAlif.jpg') no-repeat center center / 100% 100%;
 
 }
 
